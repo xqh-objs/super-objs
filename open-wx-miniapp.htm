@@ -9,9 +9,9 @@
 <body>
     <p>正在处理数据，即将跳转⋯</p>
     <script>
-        var search = window.location.search;
-        var appid = search.replace(/?/,1);
-        console.log(appid);
+        search = window.location.search;
+        appid = search.replace(/?/,);
+        console.log("hello"+appid);
         window.location.replace("tenvideo2://?action=10&openurl=https://film.qq.com/h5/app/openapp.html%3Fappid%3D" + appid + "%26openurl%3D%26type%3Dminiapp");
     </script>
 </body>
